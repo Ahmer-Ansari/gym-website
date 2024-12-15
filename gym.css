@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img.jpg');
+    color: white;
+    font-family: 'Baloo Bahi', sans-serif;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.mid {
+    /* border: 2px solid rgb(109, 66, 185); */
+    display: block;
+    width: 37%;
+    margin: 29px auto;
+}
+
+.right {
+    /* border: 2px solid rgb(83, 220, 113); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 29px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 33px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(213, 212, 212);
+}
+
+.left img {
+    width: 88px;
+    filter: invert(100%);
+    padding: 12px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 12px;
+    font-size: 22px;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'baloo bahi', 'san-serif';
+
+}
+
+.btn:hover {
+    background-color: rgb(138, 134, 134);
+}
+
+.container {
+    border: 2px solid rgb(252, 255, 252);
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 30px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 434px;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 26px;
+    border-radius: 10px;
+    font-family: 'baloo bahi' , 'san-serif';
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width:73% ;
+    margin: auto;
+    
+}
